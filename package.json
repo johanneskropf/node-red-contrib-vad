@@ -1,0 +1,26 @@
+{
+  "name": "node-red-contrib-vad",
+  "version": "0.0.1",
+  "description": "a node-red integration of node-vad",
+  "author": "Johannes Kropf",
+  "license": "Apache-2.0",
+  
+  "keywords": [
+        "audio",
+        "vad",
+        "voice-activity-detection",
+        "node-red"
+  ],
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/johanneskropf/node-red-contrib-vad.git"
+  },
+  "dependencies":{
+      "node-vad":"latest"
+  },
+  "node-red": {
+        "nodes": {
+            "vad": "vad.js"
+        }
+    }
+}
